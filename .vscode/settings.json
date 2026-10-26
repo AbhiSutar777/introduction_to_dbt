@@ -1,0 +1,5 @@
+{
+    "dbt.dbtPythonPathOverride": "D:\\DBT\\first_project\\.venv\\Scripts\\python.exe",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "dbt.dbtIntegration": "core"
+}
