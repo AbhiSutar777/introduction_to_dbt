@@ -2,7 +2,7 @@ snapshots:
   - name: gold_items
     relation: ref('gold_d_items')
     config:
-      catalog: dbt_first_project
+      catalog: '{{ target.catalog }}'  
       schema: gold
       unique_key: id
       strategy: check

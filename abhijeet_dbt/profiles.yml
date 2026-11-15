@@ -9,4 +9,15 @@ abhijeet_dbt:
       #token: dapi34cbda2b06407329ea69c9507c032586
       token: dapib7fa5b9dcada54fc1fb98b8aa087ed4b
       type: databricks
+
+    prod:
+      catalog: dbt_first_project_prod
+      host: dbc-1a72b58f-2e40.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/4e04d6f8da0981d3
+      schema: default
+      threads: 1
+      #token: dapi34cbda2b06407329ea69c9507c032586
+      token: dapib7fa5b9dcada54fc1fb98b8aa087ed4b
+      type: databricks
+
   target: dev
