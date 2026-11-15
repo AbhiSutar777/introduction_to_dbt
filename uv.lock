@@ -605,6 +605,7 @@ dependencies = [
     { name = "dbt-bigquery" },
     { name = "dbt-core" },
     { name = "dbt-databricks" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -612,6 +613,7 @@ requires-dist = [
     { name = "dbt-bigquery", specifier = ">=1.12.2" },
     { name = "dbt-core", specifier = "==1.12.6" },
     { name = "dbt-databricks", specifier = ">=1.12.8" },
+    { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 
 [[package]]
